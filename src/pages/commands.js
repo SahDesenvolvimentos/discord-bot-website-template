@@ -27,13 +27,13 @@ export default function Commands() {
         <nav className="accordion arrows" id="commands">
           <header className="box">
             <label htmlFor="acc-close" className="box-title h-color">
-              ⚡ Commands
+              ⚡ Comandos
             </label>
           </header>
           <input type="radio" name="accordion" id="cb1" />
           <section className="box">
             <label className="box-title p-color" htmlFor="cb1">
-              Utilities ⚙️
+              Utilidades ⚙️
             </label>
             <label className="box-close" htmlFor="acc-close"></label>
             <div className="box-content p-color">
@@ -56,7 +56,7 @@ export default function Commands() {
           <input type="radio" name="accordion" id="cb2" />
           <section className="box">
             <label className="box-title p-color" htmlFor="cb2">
-              Fun 🐛
+              Diversão 🐛
             </label>
             <label className="box-close" htmlFor="acc-close"></label>
             <div className="box-content p-color">
@@ -103,7 +103,7 @@ export default function Commands() {
           <input type="radio" name="accordion" id="cb4" />
           <section className="box">
             <label className="box-title p-color" htmlFor="cb4">
-              Gameplay 🎲
+              Jogabilidade 🎲
             </label>
             <label className="box-close" htmlFor="acc-close"></label>
             <div className="box-content p-color">
@@ -124,30 +124,7 @@ export default function Commands() {
             </div>
           </section>
 
-          <input type="radio" name="accordion" id="cb5" />
-          <section className="box">
-            <label className="box-title p-color" htmlFor="cb5">
-              Image 🖼️
-            </label>
-            <label className="box-close" htmlFor="acc-close"></label>
-            <div className="box-content p-color">
-              <ul>
-                <li>
-                  <kbd>$command1</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
-                </li>
-                <li>
-                  <kbd>$command2</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
-                </li>
-                <li>
-                  <kbd>$command3</kbd> -{" "}
-                  <span className="p-color">Description of command</span>
-                </li>
-              </ul>
-            </div>
-          </section>
-
+         
           <input type="radio" name="accordion" id="acc-close" />
         </nav>
       </section>
